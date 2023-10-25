@@ -1,0 +1,23 @@
+server_addr: ":3000"
+logger_level: debug
+logger_output: console
+database: postgres://wallet:S3cr3t@localhost:5432/wallet?sslmode=disable
+
+redis_host: localhost:6379
+redis_pass:
+redis_db: 1
+
+smtp:
+  host: localhost
+  port: 1025
+  user:
+  pass:
+
+bucket:
+  provider: local # choose either `local` or `discard`
+  local:
+    path: ./temp/
+    url_prefix: /images
+
+cors:
+  allowed_origins: ["*"] # dont use * for production
