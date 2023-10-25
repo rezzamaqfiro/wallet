@@ -1,0 +1,8 @@
+main
+main.exe
+backend
+backend.exe
+config.yaml
+repo/generated
+build/
+temp/
