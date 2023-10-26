@@ -1,0 +1,8 @@
+Below is sample request of this service endpoint.
+
+curl --location 'localhost:3000/v1/order/disbursement' \
+--header 'Content-Type: application/json' \
+--data '{
+    "invoice_id": "0b3d1447-ffd1-45cb-99a2-6ea36c6c3308",
+    "status": "approve"
+}'
