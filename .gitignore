@@ -6,3 +6,4 @@ config.yaml
 repo/generated
 build/
 temp/
+vendor/
